@@ -1,0 +1,109 @@
+html,body,div,h1,h2,h3,h4,h5,h6,p,a,img,span,input,form,caption,textarea,select,option,button,table,thead,tbody,tfoot,tr,
+th,td,ul,ol,li,dl,dt,dd,strong,em,i,b,header,footer,object,iframe,fieldset,label {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-size:16px;
+	font-family:'微软雅黑';
+	outline: 0;
+}
+ :focus {
+	outline: 0;
+}
+
+a{
+	text-decoration: none;
+}
+ol,ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+th,td {
+	text-align: left;
+	font-weight: normal;
+}
+
+img,iframe {
+	border: none;
+	text-decoration: none;
+	display:block;
+}
+input,textarea,select,button {
+	font-size: 100%;
+}
+hr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	content:'.';
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+}
+
+//页面部分样式
+
+html,body{
+	width:100%;
+	height:100%;
+}
+.header{
+	margin:50px auto 10px;
+	width:736px;
+	height:100px;
+	background:#efefef;
+	text-align:center;
+	line-height:100px;
+}
+
+.formDiv{
+	margin:0 auto;
+	width:736px;
+	height:320px;
+	background:#efefef;
+}
+/*.formDiv p*/
+.formDiv textarea,.formDiv div{
+	float:left;
+}
+.formDiv div{
+	margin:10px;
+	}
+.formDiv div button{
+	display:block;
+	margin-bottom:10px;
+	}
+
+/*.processedCode{
+	width:339px;
+	height:317px;
+	line-height:26px;
+	background:#fff;
+	border:1px solid #777;
+	font-size:12px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
